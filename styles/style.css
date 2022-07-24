@@ -1,0 +1,249 @@
+/* --------------------GENERAL-------------------- */
+*{
+      scroll-behavior: smooth;
+}
+
+body{
+      font-family: 'Raleway', sans-serif;
+      overflow-x: hidden;
+}
+
+h2, h3{
+      font-weight: 400!important;
+}
+
+.container-fluid{
+      padding: 4rem;
+}
+/* --------------------GENERAL-------------------- */
+
+/* --------------------NAVBAR-------------------- */
+nav{
+      background-color: #fdcae1;
+}
+
+#navbarNav{
+      justify-content: flex-end!important;
+}
+
+#nav{
+      padding: .5rem!important;
+}
+
+.navbar{
+      font-size: 1.2rem!important;
+      letter-spacing: 0.03rem;
+}
+
+.navbar-brand{
+      font-size: 2rem;
+}
+.navbar-brand:hover{
+      transition: .20s;
+      color: azure;
+}
+.nav-link:hover{
+      color:azure!important;
+      transition: .20s;
+}
+/* --------------------NAVBAR-------------------- */
+
+/* --------------------CONTADOR-------------------- */
+.div1{
+      padding: 4rem;
+      text-align: center;
+      color: #ffffff;
+      font-weight: 600;
+      position: relative;
+      background-image: linear-gradient(#81638b,#b9a4bf);
+}
+
+.img-circle{
+      border-radius: 50%;
+      transform: scale(1.4);
+      padding: 5rem;
+}
+
+.contenido{
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+}
+
+#countdown{
+      padding: 0rem;
+      width: 80%;
+}
+.conteo{
+      background-color: rgba(222, 184, 135, 0.5);
+      font-size: 1.3rem;
+      border-radius: 5px;
+      max-width: 478px;
+      margin: auto;
+}
+
+#cuenta{
+      font-size: 1.8rem;
+}
+
+#cumplevideo{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      opacity: .7;
+}
+/* --------------------CONTADOR-------------------- */
+
+/* --------------------CAROUSEL-------------------- */
+#fotos{
+      background-image: linear-gradient(#b9a4bf, #81638b);
+}
+/* --------------------CAROUSEL-------------------- */
+
+/* --------------------SALON AZUL-------------------- */
+.bg-2{
+      background-color: #fffec4;
+}
+
+.map-responsive{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+}
+
+.map-responsive iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+}
+
+#miCumple{
+      font-size: 2rem;
+}
+
+.foto-salon:hover{
+      transition: .5s;
+      filter: blur(2.5px);
+}
+/* --------------------SALON AZUL-------------------- */
+
+/* --------------------ASISTENCIA-------------------- */
+.bg-3{
+      background-color: #b6daad;
+}
+
+#asistencia{
+      font-size: 2rem;
+}
+/* --------------------ASISTENCIA-------------------- */
+
+/* --------------------MEDIA QUERIES-------------------- */
+@media only screen and (max-width: 430px) {
+      .salon-azul{
+            flex-direction: column;
+      }
+      .img-circle{
+            padding: 2.3rem;
+      }
+      #azul1{
+            margin-bottom: 2.5rem;
+      }
+}
+
+@media (max-width: 999px) {
+      #cumplevideo2{
+            display: none;
+      }
+}
+
+@media (min-width: 1000px){
+      #cumplevideo{
+            display: none;
+      }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1290px) {
+      #cumplevideo{
+            display: none;
+      }
+      #cumplevideo2{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            opacity: .7;
+      }
+      .contenido{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+      }
+      .img-circle{
+            transform: scale(1);
+            padding: 0;
+      }
+}
+
+@media (min-width: 1290px) and (max-width: 1689px){
+      #cumplevideo2{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            opacity: .7;
+      }
+      .contenido{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+      }
+}
+
+@media (min-width: 1690px){
+      #cumplevideo2{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            opacity: .7;
+      }
+      .contenido{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+      }
+}
+/* --------------------MEDIA QUERIES-------------------- */
+
+/* --------------------FOOTER-------------------- */
+footer{
+      background-color: #000000;
+      color: azure;
+}
+
+#atzel{
+      text-decoration: none;
+      color: azure;
+}
+
+#atzel:hover{
+      transition: .5s;
+      color: #bc98f3;
+      font-size: 1.3rem;
+}
+/* --------------------FOOTER-------------------- */

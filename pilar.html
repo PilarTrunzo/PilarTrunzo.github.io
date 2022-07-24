@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PILAR te invita a su fiesta de cumpleaños!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/imgs/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- --------NAVBAR-------- -->
+    <nav class="navbar navbar-expand-lg sticky-top py-1">
+      <div class="container-fluid" id="nav">
+        <a class="navbar-brand ps-3" href="#">Pilar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" id="burguesa"></span>
+        </button>
+        <div class="collapse navbar-collapse text-end" id="navbarNav">
+          <ul class="navbar-nav text-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#fotos">Fotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#donde">Donde se festeja?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#asistencia">Confirma tu asistencia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- --------NAVBAR-------- -->
+    <!-- --------SECCION CONTADOR-------- -->
+    <div class="div1">
+      <video src="/video/cumple.mp4" id="cumplevideo" autoplay loop muted></video>
+      <video src="/video/velitas.mp4" id="cumplevideo2" autoplay loop muted></video>
+      <div class="contenido">
+        <h1 class="display-1 titulos">Pilar Trunzo</h1>
+        <img src="/imgs/exteriores/pili2-350px.jpg" alt="" class="img-circle img-fluid">
+        <h2 class="titulos" id="teinvito">Te invito a mi cumpleaños!</h2>
+        <h2 class="titulos">Lo festejo el 10/09 a las 21:00 horas.</h2>
+        <div class="container-fluid" id="countdown">
+          <span id="cuenta" class="titulos">Cuenta regresiva:</span><br>
+          <div class="conteo">
+            <span id="meses" class="countdown titulos"></span>
+            <span id="dias" class="countdown titulos"></span>
+            <span id="horas" class="countdown titulos"></span>
+          </div>
+        </div>          
+      </div>
+    </div>
+    <!-- --------SECCION CONTADOR-------- -->
+    <!-- --------CAROUSEL-------- -->
+    <div class="container-fluid p-1 w-80" id="fotos">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/imgs/carousel/pili1-500px.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/imgs/carousel/pili2-500px.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/imgs/carousel/pili3-500px.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/imgs/carousel/pili4-500px.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- --------CAROUSEL-------- -->
+    <!-- --------SALON AZUL-------- -->
+    <div id="donde"></div>
+    <div class="container-fluid bg-2 text-center">
+      <h2 class="text-center display-2">Donde lo festejamos?</h2>
+      <p id="miCumple">Mi cumple lo vamos a festejar en el Salon Azul que queda en Plaza Matheu.</p><br><br>
+      <div class="container text-center p-2">
+        <div class="row gx-2 salon-azul">
+          <div class="col p-2">
+            <img src="/imgs/salon/azul3.jpg" alt="" class="img-fluid foto-salon">
+          </div>
+          <div class="col p-2">
+            <img src="/imgs/salon/azul2.jpg" alt="" class="img-fluid foto-salon">
+          </div>
+          <div class="col p-2">
+            <img src="/imgs/salon/azul5.jpg" alt="" class="img-fluid foto-salon">
+          </div>
+        </div>
+        <div class="row gx-2 salon-azul">
+          <div class="col p-2">
+            <img src="/imgs/salon/azul4.jpg" alt="" class="img-fluid foto-salon">
+          </div>
+          <div class="col p-2">
+            <img src="/imgs/salon/azul1.jpg" alt="" class="img-fluid foto-salon" id="azul1">
+          </div>
+        </div>
+      </div>
+      <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.4767219805276!2d-57.93139948504145!3d-34.919579181785416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e61ce7c998a7%3A0x57bd083f7fde9725!2sSal%C3%B3n%20Azul!5e0!3m2!1ses!2sar!4v1658291930047!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <!-- --------SALON AZUL-------- -->
+    <!-- --------ASISTENCIA-------- -->
+    <div class="container-fluid bg-3 text-center" id="asistencia">
+      <h2 class="text-center display-2">Confirma tu asistencia</h2>
+      <p id="asistencia">Escribinos a whatsapp para confirmar tu asistencia.</p>
+      <div class="d-grid">
+        <a href="https://wa.me/5492215850712?text=Quiero%20confirmar%20mi%20asistencia%20al%20cumple%20de%20Pilar!" class="btn btn-default btn-lg btn-outline-dark border-4" target="_blank"><i class="bi bi-whatsapp"></i> Confirmar asistencia</a>
+      </div>
+    </div>
+    <!-- --------ASISTENCIA-------- -->
+    <!-- --------FOOTER-------- -->
+    <footer class="container-fluid text-center align-middle p-2">
+      <p class="text-center align-middle p-3 mb-0">Hecho por <a href="https://instagram.com/atzel___" target="_blank" id="atzel">Atzel</a></p>
+    </footer>
+    <!-- --------FOOTER-------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
