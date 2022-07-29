@@ -132,7 +132,7 @@ nav{
 
 .foto-salon:hover{
       transition: .5s;
-      filter: blur(2.5px);
+      filter: blur(1.2px)
 }
 /* --------------------SALON AZUL-------------------- */
 
