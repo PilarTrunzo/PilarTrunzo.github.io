@@ -15,10 +15,25 @@ h2, h3{
 .container-fluid{
       padding: 4rem;
 }
+audio{
+      width: 100%;
+      display: flex;
+}
+#audio{
+      background-color: #fdcae1;
+}
+audio::-webkit-media-controls-panel {
+      background-color: #fdcae1;
+}
+audio::-webkit-media-controls-play-button{
+      background-color: #ce9ddf;
+      border-radius: 50%;
+}
+audio::-webkit-media-controls-mute-button{
+      background-color: #ce9ddf;
+      border-radius: 50%;
+}
 
-/* audio{
-      display: none;
-} */
 /* --------------------GENERAL-------------------- */
 
 /* --------------------NAVBAR-------------------- */
