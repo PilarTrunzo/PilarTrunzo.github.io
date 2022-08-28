@@ -61,8 +61,8 @@
         }
 
         document.getElementById('horas').innerHTML=`${fillZero(new_hour)}:${fillZero(new_minute)}:${fillZero(new_second)} horas.`;
-        document.getElementById('dias').innerHTML=`${new_day} dias, `;
-        document.getElementById('meses').innerHTML=`${new_month} mes, `;
+        document.getElementById('dias').innerHTML=`${new_day+31} dias, `;
+        // document.getElementById('meses').innerHTML=`${new_month} mes, `;
         form.year.value=new_year;
     }
 
